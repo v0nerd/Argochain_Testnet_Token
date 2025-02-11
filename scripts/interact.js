@@ -1,5 +1,7 @@
 const hre = require("hardhat");
 
+// main function
+
 async function main() {
     const tokenAddress = "0x88d7eA782F2f6a4a46ad1CA956E3aE75FBd61A21"; // replace with your contract address
     const [owner] = await hre.ethers.getSigners();
